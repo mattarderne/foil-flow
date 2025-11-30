@@ -33,7 +33,7 @@ export const flowLogic: FlowData = {
   'q_boat_surfer_windy': {
     id: 'q_boat_surfer_windy',
     type: 'question',
-    title: 'Core Assessment: Access',
+    title: 'Core Assessment: Boat access',
     content: "Do you have access to a boat or jet ski for towing?",
     options: [
       { label: 'Yes', nextId: 'res_tri_discipline' },
@@ -55,7 +55,7 @@ export const flowLogic: FlowData = {
   'q_boat_surfer_calm': {
     id: 'q_boat_surfer_calm',
     type: 'question',
-    title: 'Core Assessment: Access',
+    title: 'Core Assessment: Boat access',
     content: "Do you have access to a boat or jet ski for towing?",
     options: [
       { label: 'Yes', nextId: 'res_wake_prone' },
@@ -90,7 +90,7 @@ export const flowLogic: FlowData = {
   'q_boat_nonsurfer_windy': {
     id: 'q_boat_nonsurfer_windy',
     type: 'question',
-    title: 'Core Assessment: Access',
+    title: 'Core Assessment: Boat access',
     content: "Do you have access to a boat or jet ski?",
     options: [
       { label: 'Yes', nextId: 'res_wake_wing' },
@@ -102,7 +102,7 @@ export const flowLogic: FlowData = {
   'q_boat_nonsurfer_calm': {
     id: 'q_boat_nonsurfer_calm',
     type: 'question',
-    title: 'Core Assessment: Access',
+    title: 'Core Assessment: Boat access',
     content: "Do you have access to a boat or jet ski?",
     options: [
       { label: 'Yes', nextId: 'res_wake_only' },
